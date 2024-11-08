@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<aiml version="2" encoding="UTF-8">
+
+    <category>
+        <pattern>LOAD AIML B</pattern>
+        <template>
+            <learn>basic_ch.aiml</learn>
+        </template>
+    </category>
+</aiml>

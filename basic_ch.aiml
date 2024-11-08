@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>
+        hello
+        </pattern>
+        <template>
+        Hello. My name's Mr. Boogie (yes, the one from the horror movie).  How can I help you?
+        </template>
+
+    </category>
+    <category>
+        
+        <pattern> call a *</pattern> 
+        <!-- menu: busses, trains, metro or taxi. -->
+        <template> a <set name = "service"><star/></set>. I see.  Where are you now? I mean the address </template>
+   
+
+    </category>
+
+    <!-- <category>
+        
+        <pattern>*</pattern>
+    
+        <template>
+        <set name = "from"><star/></set>...
+        Ok!. I'm trying to find a <get name = "service"/> from <get name ="from"/>.
+        How many people go with you? 
+        </template>
+
+    </category> -->
+    <category>
+        
+        <pattern>*</pattern>
+    
+        <template>
+        <!-- <set name = "seats_num"><star/></set> people... -->
+        I see. a  <get name = "service"/> for <set name = "seats_num"><star/></set>. 
+        </template>
+
+    </category>
+
+
+    
+
+ 
+</aiml>

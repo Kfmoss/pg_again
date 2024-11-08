@@ -1,0 +1,6 @@
+
+WIDTH = 690
+HEIGHT = 590
+FPS = 60
+
+
